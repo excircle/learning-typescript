@@ -1,6 +1,6 @@
 # Learning Typescript with NextJS
 
-This repository is dedicated to learning Typescript with NextJS.
+This repository is dedicated to learning [Typescript](https://www.typescriptlang.org/docs/handbook/intro.html) with NextJS.
 
 | Metadata | Details|
 | - | - |
@@ -19,3 +19,17 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+# Typescript Basics
+
+<details><summary>Typescript Configuration & Compilation</summary>
+<h3>How is Typescript setup?</h3>
+
+Typescript is typically setup by running the following command:
+
+```bash
+tsc --init
+```
+
+This command will create a [`tsconfig.json`](https://github.com/excircle/learning-typescript/blob/main/tsconfig.json) which will hold your compilation config and apply them at runtime, saving you from having to provide the options manually (<i>as would be the case if executing from the command line</i>).
+</details>
