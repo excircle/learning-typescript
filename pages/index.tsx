@@ -7,7 +7,7 @@ import type { NextPageWithLayout } from './_app'
 const Page: NextPageWithLayout = () => {
   return (
     <div className="py-4 items-center text-center">
-      <p>Kaka de Nunes</p>
+      <p>Learning Typescript</p>
     </div>
   )
 }
